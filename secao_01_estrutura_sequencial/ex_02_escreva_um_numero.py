@@ -15,6 +15,7 @@ def escreva_um_numero():
     numero = input('Digite um numero: ')
     print(f'O número informado foi {numero}')
 
-escreva_um_numero()
+if __name__== '__main__':
+    escreva_um_numero()
 
 
